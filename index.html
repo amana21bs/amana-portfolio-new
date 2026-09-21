@@ -1,0 +1,2452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Amana - UI/UX Designer and Front-End Developer Portfolio">
+
+    <title>Amana | UI/UX Designer & Front-End Developer</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================================================
+     NAVBAR
+================================================== -->
+
+<header class="header" id="header">
+
+    <nav class="navbar container">
+
+        <!-- Logo -->
+        <a href="#home" class="logo">
+            Amana<span>.</span>
+        </a>
+
+
+        <!-- Navigation -->
+        <div class="nav-menu" id="nav-menu">
+
+            <a href="#home" class="nav-link active">
+                Home
+            </a>
+
+            <a href="#about" class="nav-link">
+                About
+            </a>
+
+            <a href="#skills" class="nav-link">
+                Skills
+            </a>
+
+            <a href="#projects" class="nav-link">
+                Projects
+            </a>
+
+            <a href="#education" class="nav-link">
+                Education
+            </a>
+
+            <a href="#certificates" class="nav-link">
+                Certificates
+            </a>
+
+            <a href="#contact" class="nav-link">
+                Contact
+            </a>
+
+        </div>
+
+
+        <!-- Right-side controls -->
+        <div class="nav-actions">
+
+            <!-- Theme Toggle -->
+            <button
+                class="theme-toggle"
+                id="theme-toggle"
+                aria-label="Toggle light and dark theme"
+                title="Toggle theme">
+                ☾
+            </button>
+
+
+            <!-- Mobile Menu -->
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+                ☰
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+    <!-- ==================================================
+         MAIN CONTENT
+    =================================================== -->
+
+    <main>
+
+        <!-- ==================================================
+     HOME / HERO
+================================================== -->
+
+<section id="home" class="home section">
+
+    <div class="container home-container">
+
+        <!-- ================= LEFT CONTENT ================= -->
+
+        <div class="home-content">
+
+            <p class="home-greeting">
+                Hello, I'm
+            </p>
+
+
+            <h1 class="home-name">
+                Amana
+            </h1>
+
+
+            <h2 class="typing-line">
+
+                <span class="typing-prefix">
+                    I'm
+                </span>
+
+                <span
+                    id="typing-text"
+                    class="typing-text">
+                </span>
+
+            </h2>
+
+
+            <p class="home-description">
+
+                An Information & Communication Technology undergraduate
+                passionate about creating clean, intuitive and
+                user-friendly digital experiences through UI/UX design
+                and Front-End Development.
+
+            </p>
+
+
+            <!-- Social Icons -->
+
+            <div class="social-links">
+
+                <a
+                    href="http://www.linkedin.com/in/amana-siraju-146bs"
+                    class="social-link"
+                    aria-label="LinkedIn"
+                    title="LinkedIn">
+
+                    <!-- LinkedIn Icon -->
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true">
+
+                        <path
+                            d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8 8H5V19H8V8M6.5 5.5A1.5 1.5 0 1 0 6.5 8.5A1.5 1.5 0 0 0 6.5 5.5M19 12.2C19 8.9 17.3 7.4 14.9 7.4C13 7.4 12.1 8.5 11.7 9.2V8H8.9V19H11.7V13.5C11.7 12.1 12 10.8 13.8 10.8C15.5 10.8 15.5 12.4 15.5 13.6V19H18.3V12.2Z"
+                        />
+
+                    </svg>
+
+                </a>
+
+
+                <a
+                    href="https://github.com/amana21bs"
+                    class="social-link"
+                    aria-label="GitHub"
+                    title="GitHub">
+
+                    <!-- GitHub Icon -->
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true">
+
+                        <path
+                            d="M12 2C6.48 2 2 6.58 2 12.22C2 16.72 4.87 20.52 8.84 21.87C9.34 21.96 9.52 21.65 9.52 21.38C9.52 21.14 9.51 20.5 9.5 19.65C6.73 20.28 6.14 18.28 6.14 18.28C5.68 17.07 5.03 16.75 5.03 16.75C4.12 16.11 5.1 16.12 5.1 16.12C6.11 16.19 6.64 17.19 6.64 17.19C7.53 18.75 8.98 18.3 9.54 18.04C9.63 17.38 9.89 16.93 10.17 16.67C7.96 16.41 5.64 15.53 5.64 11.52C5.64 10.37 6.03 9.43 6.66 8.69C6.56 8.43 6.2 7.36 6.75 5.92C6.75 5.92 7.59 5.64 9.5 6.98C10.3 6.75 11.15 6.64 12 6.63C12.85 6.64 13.7 6.75 14.5 6.98C16.41 5.64 17.25 5.92 17.25 5.92C17.8 7.36 17.44 8.43 17.34 8.69C17.97 9.43 18.36 10.37 18.36 11.52C18.36 15.54 16.04 16.4 13.83 16.66C14.18 16.97 14.48 17.57 14.48 18.49C14.48 19.81 14.47 20.88 14.47 21.38C14.47 21.65 14.65 21.97 15.16 21.87C19.13 20.52 22 16.72 22 12.22C22 6.58 17.52 2 12 2Z"
+                        />
+
+                    </svg>
+
+                </a>
+
+
+                <a
+                    href="mailto:amanasiraju97@gmail.com"
+                    class="social-link"
+                    aria-label="Email"
+                    title="Email">
+
+                    <!-- Email Icon -->
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true">
+
+                        <path
+                            d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4M20 8L12 13L4 8V6L12 11L20 6V8Z"
+                        />
+
+                    </svg>
+
+                </a>
+
+            </div>
+
+
+            <!-- Hero Buttons -->
+
+            <div class="home-buttons">
+
+                <a
+                    href="#projects"
+                    class="btn primary-btn">
+
+                    View My Work
+
+                </a>
+
+
+                <a
+                    href="#"
+                    class="btn secondary-btn"
+                    id="cv-button">
+
+                    View CV
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= RIGHT PROFILE ================= -->
+
+        <div class="home-visual">
+
+            <!-- Decorative glow -->
+
+            <div class="hero-glow"></div>
+
+
+            <!-- Decorative orbit -->
+
+            <div class="orbit orbit-one"></div>
+
+            <div class="orbit orbit-two"></div>
+
+
+            <!-- Profile image -->
+
+            <div class="profile-wrapper">
+
+                <div class="profile-ring"></div>
+
+                <div class="profile-image">
+
+                    <img
+                        src="images/Profile.jpeg"
+                        alt="Amana - UI/UX Designer and Front-End Developer">
+
+                </div>
+
+            </div>
+
+
+            <!-- Decorative dots -->
+
+            <span class="hero-dot dot-one"></span>
+
+            <span class="hero-dot dot-two"></span>
+
+            <span class="hero-dot dot-three"></span>
+
+        </div>
+
+    </div>
+
+
+    <!-- Scroll indicator -->
+
+    <a
+        href="#about"
+        class="scroll-indicator">
+
+        <span>Scroll Down</span>
+
+        <span class="scroll-arrow">
+            ↓
+        </span>
+
+    </a>
+
+</section>
+
+
+        <!-- ==================================================
+     ABOUT
+================================================== -->
+
+<section id="about" class="about section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                GET TO KNOW ME
+            </p>
+
+            <h2 class="section-title">
+                About <span>Me</span>
+            </h2>
+
+        </div>
+
+
+        <!-- About Content -->
+
+        <div class="about-content">
+
+            <!-- Main Text -->
+
+            <div class="about-text">
+
+                <h3>
+                    Designing with purpose,
+                    developing with creativity.
+                </h3>
+
+                <p>
+                    I’m an Information & Communication Technology
+                    undergraduate with a growing passion for UI/UX
+                    design and Front-End Development. I enjoy creating
+                    clean, intuitive and responsive digital experiences
+                    while continuously improving my design and
+                    development skills.
+                </p>
+
+                <p>
+                    I’m also interested in project management and
+                    enjoy learning how ideas can be organized and
+                    transformed into meaningful digital solutions.
+                </p>
+
+            </div>
+
+
+            <!-- About Highlights -->
+
+            <div class="about-highlights">
+
+                <!-- UI/UX -->
+
+                <div class="about-card">
+
+                    <div class="about-card-icon">
+                        ✦
+                    </div>
+
+                    <div>
+                        <h4>
+                            UI/UX Design
+                        </h4>
+
+                        <p>
+                            My primary creative interest
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Front-End -->
+
+                <div class="about-card">
+
+                    <div class="about-card-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <div>
+                        <h4>
+                            Front-End Development
+                        </h4>
+
+                        <p>
+                            Building responsive interfaces
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Project Management -->
+
+                <div class="about-card">
+
+                    <div class="about-card-icon">
+                        ◇
+                    </div>
+
+                    <div>
+                        <h4>
+                            Project Management
+                        </h4>
+
+                        <p>
+                            An area I aspire to grow in
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- ==================================================
+     SKILLS
+================================================== -->
+
+<section id="skills" class="skills section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                MY SKILLS
+            </p>
+
+            <h2 class="section-title">
+                Skills & <span>Technologies</span>
+            </h2>
+
+            <p class="skills-intro">
+                A growing collection of design, development and
+                technical skills I have explored throughout my
+                academic journey and personal projects.
+            </p>
+
+        </div>
+
+
+        <!-- Skills Grid -->
+
+        <div class="skills-grid">
+
+
+            <!-- =========================================
+                 UI/UX DESIGN
+            ========================================== -->
+
+            <article class="skill-card skill-card-featured">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        ✦
+                    </div>
+
+                    <div>
+
+                        <p class="skill-number">
+                            01
+                        </p>
+
+                        <h3>
+                            UI/UX Design
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-tags">
+
+                    <span>Figma</span>
+
+                    <span>Wireframing</span>
+
+                    <span>Prototyping</span>
+
+                    <span>UI Design</span>
+
+                    <span>UX Design</span>
+
+                    <span>Visual Design</span>
+
+                    <span>Responsive Design</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- =========================================
+                 FRONT-END DEVELOPMENT
+            ========================================== -->
+
+            <article class="skill-card skill-card-featured">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <div>
+
+                        <p class="skill-number">
+                            02
+                        </p>
+
+                        <h3>
+                            Front-End Development
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-tags">
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>JavaScript</span>
+
+                    <span>React</span>
+
+                    <span>Responsive Web Design</span>
+
+                    <span>REST API Integration</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- =========================================
+                 PROGRAMMING
+            ========================================== -->
+
+            <article class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <div>
+
+                        <p class="skill-number">
+                            03
+                        </p>
+
+                        <h3>
+                            Programming
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-tags">
+
+                    <span>Python</span>
+
+                    <span>C</span>
+
+                    <span>Java Fundamentals</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- =========================================
+                 DEVELOPMENT TOOLS
+            ========================================== -->
+
+            <article class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        ⚙
+                    </div>
+
+                    <div>
+
+                        <p class="skill-number">
+                            04
+                        </p>
+
+                        <h3>
+                            Development Tools
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-tags">
+
+                    <span>VS Code</span>
+
+                    <span>Git</span>
+
+                    <span>GitHub</span>
+
+                    <span>Code::Blocks</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- =========================================
+                 WEB TECHNOLOGIES
+            ========================================== -->
+
+            <article class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        ◇
+                    </div>
+
+                    <div>
+
+                        <p class="skill-number">
+                            05
+                        </p>
+
+                        <h3>
+                            Web Technologies
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-tags">
+
+                    <span>Node.js</span>
+
+                    <span>REST APIs</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- =========================================
+                 OTHER ICT SKILLS
+            ========================================== -->
+
+            <article class="skill-card">
+
+                <div class="skill-card-header">
+
+                    <div class="skill-icon">
+                        +
+                    </div>
+
+                    <div>
+
+                        <p class="skill-number">
+                            06
+                        </p>
+
+                        <h3>
+                            Other ICT Skills
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-tags">
+
+                    <span>SQL</span>
+
+                    <span>Database Fundamentals</span>
+
+                    <span>Software Testing Fundamentals</span>
+
+                    <span>Networking Fundamentals</span>
+
+                    <span>MS Office Package</span>
+
+                    <span>Canva</span>
+
+                    <span>Agile & Scrum Fundamentals</span>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- ==================== PROJECTS ==================== -->
+<section id="projects" class="projects section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="section-heading">
+            <p class="section-label">MY WORK</p>
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <p class="projects-intro">
+                A selection of UI/UX designs and front-end projects created
+                through academic work, personal practice and continuous learning.
+            </p>
+        </div>
+
+
+        <!-- ==================== UI/UX PROJECTS ==================== -->
+        <div class="project-category">
+
+            <div class="project-category-heading">
+                <div>
+                    <p class="project-category-label">01</p>
+                    <h3>UI/UX Design</h3>
+                </div>
+
+                <span class="project-category-tool">Figma</span>
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- ===== PROJECT 01 : FOOD ORDERING APP ===== -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <!--
+                            PREVIEW IMAGE:
+                            Add your image here:
+                            images/food-ordering.png
+                        -->
+                        <img
+                            src="images/Food Ordering App.png"
+                            alt="Food Ordering App UI design"
+                        >
+
+                        <div class="project-image-overlay">
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-type">Figma</span>
+                        </div>
+
+                        <h4>Food Ordering App</h4>
+
+                        <p>
+                            A modern mobile food ordering interface designed
+                            for browsing meals, viewing food details, managing
+                            a cart and completing an order.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>UI Design</span>
+                            <span>Mobile App</span>
+                            <span>Figma</span>
+                        </div>
+
+                        <!--
+                            FIGMA LINK:
+                            Replace # with your actual Figma project/prototype link.
+                        -->
+                        <a
+                            href="https://www.figma.com/proto/u2jBm09U1t5JgFtQgIRDhs/Food-Ordering-App?node-id=4-12&p=f&viewport=25%2C140%2C0.6&t=wBVtkkjZTiLGUWFc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A12&page-id=0%3A1"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Design
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ===== PROJECT 02 : TRAVEL WEBSITE ===== -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <!--
+                            PREVIEW IMAGE:
+                            Add your image here:
+                            images/travel-website.png
+                        -->
+                        <img
+                            src="images/Travel Website.png"
+                            alt="Travel Website UI design"
+                        >
+
+                        <div class="project-image-overlay">
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-type">Figma</span>
+                        </div>
+
+                        <h4>Travel Website</h4>
+
+                        <p>
+                            A visually engaging travel website concept created
+                            to showcase destinations, travel experiences and
+                            useful information through a clean web interface.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Web Design</span>
+                            <span>UI Design</span>
+                            <span>Figma</span>
+                        </div>
+
+                        <!--
+                            FIGMA LINK:
+                            Replace # with your actual Figma project/prototype link.
+                        -->
+                        <a
+                            href="https://www.figma.com/proto/VzsnZXuJfC5G4n79aPVQI8/Travel-Website?node-id=1-2&viewport=898%2C81%2C0.59&t=hm1IzFbkdeIanMZa-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Design
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ===== PROJECT 03 : LOGIN / SIGNUP ===== -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <!--
+                            PREVIEW IMAGE:
+                            Add your image here:
+                            images/login-signup.png
+                        -->
+                        <img
+                            src="images/Interactive Login-Signup Page.png"
+                            alt="Interactive Login and Signup Page UI design"
+                        >
+
+                        <div class="project-image-overlay">
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-number">03</span>
+                            <span class="project-type">Figma</span>
+                        </div>
+
+                        <h4>Interactive Login/Signup Page</h4>
+
+                        <p>
+                            An interactive authentication interface combining
+                            login and sign-up screens with animated transitions
+                            and a modern visual style.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>UI Design</span>
+                            <span>Interaction</span>
+                            <span>Animation</span>
+                            <span>Figma</span>
+                        </div>
+
+                        <!--
+                            FIGMA LINK:
+                            Replace # with your actual Figma project/prototype link.
+                        -->
+                        <a
+                            href="https://www.figma.com/proto/zTElkmqeQop0QuMgxOWh4T/Interactive-Login-Sign-up-Page?node-id=4-2&page-id=0%3A1&t=nYAHVtJxZqegGkNW-1"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Design
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- ===== PROJECT 04 : TO-DO APP ===== -->
+<article class="project-card">
+
+    <div class="project-image">
+        <!--
+            PREVIEW IMAGE:
+            Save your To-Do App preview as:
+            images/todo-app.png
+        -->
+        <img
+            src="images/To-Do App.png"
+            alt="Listify To-Do App UI design"
+        >
+
+        <div class="project-image-overlay">
+            <span>UI/UX Design</span>
+        </div>
+    </div>
+
+    <div class="project-content">
+
+        <div class="project-top">
+            <span class="project-number">05</span>
+            <span class="project-type">Figma</span>
+        </div>
+
+        <h4>To-Do App — Listify</h4>
+
+        <p>
+            A simple and interactive task management app designed to help
+            users create, manage and organize their daily tasks through
+            a clean and user-friendly interface.
+        </p>
+
+        <div class="project-tags">
+            <span>UI Design</span>
+            <span>Mobile App</span>
+            <span>Figma</span>
+        </div>
+
+        <!--
+            FIGMA LINK:
+            Replace # with your actual Figma project/prototype link.
+        -->
+        <a
+            href="https://www.figma.com/proto/AqVtsoDhLlZztFmE3XrZop/To-Do-Application?node-id=1-2&p=f&viewport=25%2C289%2C0.29&t=QG8JIC70uRpxryPi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            View Design
+            <span>↗</span>
+        </a>
+
+    </div>
+
+</article>
+
+                <!-- ===== PROJECT 05 : DONUT ANIMATION ===== -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <!--
+                            PREVIEW IMAGE:
+                            Add your image here:
+                            images/donut-animation.png
+                        -->
+                        <img
+                            src="images/Donut Animation.png"
+                            alt="Donut Animation design"
+                        >
+
+                        <div class="project-image-overlay">
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-number">04</span>
+                            <span class="project-type">Figma</span>
+                        </div>
+
+                        <h4>Donut Animation</h4>
+
+                        <p>
+                            A playful animated visual concept featuring colorful
+                            donut illustrations, dynamic backgrounds and smooth
+                            transitions created to explore motion and visual
+                            interaction.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Animation</span>
+                            <span>Motion Design</span>
+                            <span>Figma</span>
+                        </div>
+
+                        <!--
+                            FIGMA LINK:
+                            Replace # with your actual Figma project/prototype link.
+                        -->
+                        <a
+                            href="https://www.figma.com/proto/YpMPR4j1NTxhIEH3JzrbsY/Donut-Animation?node-id=2-2&p=f&viewport=453%2C25%2C0.23&t=nYsfHH6I58UGgqHS-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2&page-id=0%3A1"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Design
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+        </div>
+
+
+        <!-- ==================== FRONT-END PROJECTS ==================== -->
+<div class="project-category front-end-category">
+
+    <div class="project-category-heading">
+        <div>
+            <p class="project-category-label">02</p>
+            <h3>Front-End Development</h3>
+        </div>
+
+        <span class="project-category-tool">HTML · CSS · JavaScript · React</span>
+    </div>
+
+
+    <div class="projects-grid">
+
+
+        <!-- =========================================
+             PROJECT 01 : GITHUB EXPLORER
+        ========================================== -->
+        <article class="project-card">
+
+            <div class="project-image">
+
+                <!--
+                    PREVIEW IMAGE:
+                    Add your image here:
+                    images/github-explorer.png
+                -->
+                <img
+                    src="images/Git Hub Explorer.png"
+                    alt="GitHub Explorer project"
+                >
+
+                <div class="project-image-overlay">
+                    <span>Front-End Development</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-top">
+                    <span class="project-number">01</span>
+                    <span class="project-type">React</span>
+                </div>
+
+                <h4>GitHub Explorer</h4>
+
+                <p>
+                    A modern and responsive React application that allows
+                    users to search GitHub profiles, explore profile
+                    statistics and browse repositories using the GitHub
+                    REST API.
+                </p>
+
+                <div class="project-tags">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>CSS3</span>
+                    <span>GitHub REST API</span>
+                    <span>Vite</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <!--
+                        LIVE DEMO:
+                        Replace # with your deployed website URL.
+                    -->
+                    <a
+                        href="https://github-explorer1-red.vercel.app/"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Project
+                        <span>↗</span>
+                    </a>
+
+
+                    <!--
+                        GITHUB:
+                        Replace # with your GitHub repository URL.
+                    -->
+                    <a
+                        href="https://github.com/amana21bs/Github-explorer1"
+                        class="project-github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="View GitHub repository"
+                        title="GitHub Repository"
+                    >
+                        GitHub
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================================
+             PROJECT 02 : FOODATLAS
+        ========================================== -->
+        <article class="project-card">
+
+            <div class="project-image">
+
+                <!--
+                    PREVIEW IMAGE:
+                    Add your image here:
+                    images/food-atlas.png
+                -->
+                <img
+                    src="images/Food Atlas.png"
+                    alt="FoodAtlas project"
+                >
+
+                <div class="project-image-overlay">
+                    <span>Front-End Development</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-top">
+                    <span class="project-number">02</span>
+                    <span class="project-type">Vanilla JS</span>
+                </div>
+
+                <h4>FoodAtlas</h4>
+
+                <p>
+                    A responsive single-page recipe explorer that lets users
+                    discover signature dishes from around the world and
+                    explore detailed ingredients, cooking information and
+                    step-by-step recipes.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>SPA</span>
+                    <span>Responsive Design</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <!--
+                        LIVE DEMO:
+                        Replace # with your FoodAtlas deployed URL.
+                    -->
+                    <a
+                        href="https://amana21bs.github.io/Food-Atlas/"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Project
+                        <span>↗</span>
+                    </a>
+
+
+                    <!--
+                        GITHUB:
+                        FoodAtlas repository
+                    -->
+                    <a
+                        href="https://github.com/amana21bs/Food-Atlas.git"
+                        class="project-github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="View GitHub repository"
+                        title="GitHub Repository"
+                    >
+                        GitHub
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================================
+             PROJECT 03 : SPRINT KANBAN ENGINE
+        ========================================== -->
+        <article class="project-card">
+
+            <div class="project-image">
+
+                <!--
+                    PREVIEW IMAGE:
+                    Add your image here:
+                    images/sprint-kanban.png
+                -->
+                <img
+                    src="images/Sprint Kanban Engine.png"
+                    alt="Enterprise Sprint Kanban Engine project"
+                >
+
+                <div class="project-image-overlay">
+                    <span>Front-End Development</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-top">
+                    <span class="project-number">03</span>
+                    <span class="project-type">Vanilla JS</span>
+                </div>
+
+                <h4>Enterprise Sprint Kanban Engine</h4>
+
+                <p>
+                    A responsive, framework-free Kanban board featuring
+                    drag-and-drop task management, live search, priority
+                    filtering, theme switching and persistent task data.
+                </p>
+
+                <div class="project-tags">
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Drag & Drop</span>
+                    <span>Local Storage</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <!--
+                        LIVE DEMO:
+                        Replace # with your deployed website URL.
+                    -->
+                    <a
+                        href="https://amana21bs.github.io/Kanban-Board/"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Project
+                        <span>↗</span>
+                    </a>
+
+
+                    <!--
+                        GITHUB:
+                        Kanban Board repository
+                    -->
+                    <a
+                        href="https://github.com/amana21bs/Kanban-Board.git"
+                        class="project-github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="View GitHub repository"
+                        title="GitHub Repository"
+                    >
+                        GitHub
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================================
+             PROJECT 04 : PASSWORD STRENGTH METER
+        ========================================== -->
+        <article class="project-card">
+
+            <div class="project-image">
+
+                <!--
+                    PREVIEW IMAGE:
+                    Add your image here:
+                    images/password-strength-meter.png
+                -->
+                <img
+                    src="images/Password Strength Meter.png"
+                    alt="Password Strength Meter project"
+                >
+
+                <div class="project-image-overlay">
+                    <span>Front-End Development</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-top">
+                    <span class="project-number">04</span>
+                    <span class="project-type">JavaScript</span>
+                </div>
+
+                <h4>Password Strength Meter</h4>
+
+                <p>
+                    A responsive password validation tool that provides
+                    real-time feedback on password strength using visual
+                    indicators and customizable validation criteria.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Validation</span>
+                    <span>Responsive Design</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <!--
+                        LIVE DEMO:
+                        Replace # with your deployed website URL.
+                    -->
+                    <a
+                        href="https://amana21bs.github.io/Password-Strength-Meter/"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Project
+                        <span>↗</span>
+                    </a>
+
+
+                    <!--
+                        GITHUB:
+                        Password Strength Meter repository
+                    -->
+                    <a
+                        href="https://github.com/amana21bs/Password-Strength-Meter.git"
+                        class="project-github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="View GitHub repository"
+                        title="GitHub Repository"
+                    >
+                        GitHub
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================================
+             PROJECT 05 : RESPONSIVE LANDING PAGE
+        ========================================== -->
+        <article class="project-card">
+
+            <div class="project-image">
+
+                <!--
+                    PREVIEW IMAGE:
+                    Add your image here:
+                    images/responsive-landing-page.png
+                -->
+                <img
+                    src="images/Responsive Landing Page 1.png"
+                    alt="Responsive Landing Page project"
+                >
+
+                <div class="project-image-overlay">
+                    <span>Front-End Development</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-top">
+                    <span class="project-number">05</span>
+                    <span class="project-type">Web Design</span>
+                </div>
+
+                <h4>Responsive Landing Page</h4>
+
+                <p>
+                    A modern and responsive course landing page featuring
+                    a clean gradient-based interface, glassmorphism cards,
+                    smooth navigation and scroll-triggered animations.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Flexbox</span>
+                    <span>CSS Grid</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <!--
+                        LIVE DEMO:
+                        Replace # with your deployed website URL.
+                    -->
+                    <a
+                        href="https://amana21bs.github.io/Responsive-Landing-Page/"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Project
+                        <span>↗</span>
+                    </a>
+
+
+                    <!--
+                        GITHUB:
+                        Responsive Landing Page repository
+                    -->
+                    <a
+                        href="https://github.com/amana21bs/Responsive-Landing-Page.git"
+                        class="project-github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="View GitHub repository"
+                        title="GitHub Repository"
+                    >
+                        GitHub
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================================
+             PROJECT 06 : INTERACTIVE FORM
+        ========================================== -->
+        <article class="project-card">
+
+            <div class="project-image">
+
+                <!--
+                    PREVIEW IMAGE:
+                    Add your image here:
+                    images/interactive-form.png
+                -->
+                <img
+                    src="images/Interactive Form.png"
+                    alt="Interactive Form project"
+                >
+
+                <div class="project-image-overlay">
+                    <span>Front-End Development</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-top">
+                    <span class="project-number">06</span>
+                    <span class="project-type">JavaScript</span>
+                </div>
+
+                <h4>Interactive Form</h4>
+
+                <p>
+                    A modern and responsive interactive form featuring
+                    real-time input validation, dynamic error feedback,
+                    password strength checks and a smooth user-friendly
+                    interface.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Form Validation</span>
+                    <span>Responsive Design</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <!--
+                        LIVE DEMO:
+                        Replace # with your deployed website URL.
+                    -->
+                    <a
+                        href="https://amana21bs.github.io/Interactive-Form/"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Project
+                        <span>↗</span>
+                    </a>
+
+
+                    <!--
+                        GITHUB:
+                        Interactive Form repository
+                    -->
+                    <a
+                        href="https://github.com/amana21bs/Interactive-Form.git"
+                        class="project-github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="View GitHub repository"
+                        title="GitHub Repository"
+                    >
+                        GitHub
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+
+        <!-- ==================== EDUCATION ==================== -->
+<section id="education" class="education section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="section-heading">
+            <p class="section-label">MY JOURNEY</p>
+            <h2 class="section-title">Education & <span>Qualifications</span></h2>
+            <p class="education-intro">
+                My academic journey and qualifications that continue to
+                shape my knowledge, skills and professional development.
+            </p>
+        </div>
+
+
+        <!-- Education Timeline -->
+        <div class="education-timeline">
+
+
+            <!-- ==================== DEGREE ==================== -->
+            <article class="education-item">
+
+                <div class="education-marker">
+                    <span></span>
+                </div>
+
+                <div class="education-year">
+                    2024 — Present
+                </div>
+
+                <div class="education-card">
+
+                    <div class="education-card-top">
+                        <div class="education-icon">
+                            🎓
+                        </div>
+
+                        <span class="education-status">
+                            Undergraduate
+                        </span>
+                    </div>
+
+                    <h3>
+                        Bachelor of Information and Communication
+                        Technology (Hons)
+                    </h3>
+
+                    <h4>
+                        University of Colombo, Sri Lanka
+                    </h4>
+
+                    <p>
+                        Currently pursuing an Honours degree in Information
+                        and Communication Technology, developing knowledge
+                        across technology, software development, design and
+                        information systems.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- ==================== A/L ==================== -->
+            <article class="education-item">
+
+                <div class="education-marker">
+                    <span></span>
+                </div>
+
+                <div class="education-year">
+                    2022
+                </div>
+
+                <div class="education-card">
+
+                    <div class="education-card-top">
+                        <div class="education-icon">
+                            📚
+                        </div>
+
+                        <span class="education-status">
+                            Completed
+                        </span>
+                    </div>
+
+                    <h3>
+                        G.C.E. Advanced Level Examination
+                    </h3>
+
+                    <h4>
+                        Technology Stream
+                    </h4>
+
+                    <div class="education-results">
+
+                        <div class="result-item">
+                            <span class="result-label">Results</span>
+                            <strong>2A B</strong>
+                        </div>
+
+                        <div class="result-item">
+                            <span class="result-label">Z-Score</span>
+                            <strong>2.2007</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ==================== O/L ==================== -->
+            <article class="education-item">
+
+                <div class="education-marker">
+                    <span></span>
+                </div>
+
+                <div class="education-year">
+                    2019
+                </div>
+
+                <div class="education-card">
+
+                    <div class="education-card-top">
+                        <div class="education-icon">
+                            📖
+                        </div>
+
+                        <span class="education-status">
+                            Completed
+                        </span>
+                    </div>
+
+                    <h3>
+                        G.C.E. Ordinary Level Examination
+                    </h3>
+
+                    <div class="education-results">
+
+                        <div class="result-item">
+                            <span class="result-label">Results</span>
+                            <strong>8A B</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ==================== DIPLOMA ==================== -->
+            <article class="education-item">
+
+                <div class="education-marker">
+                    <span></span>
+                </div>
+
+                <div class="education-year">
+                    2023 — 2024
+                </div>
+
+                <div class="education-card">
+
+                    <div class="education-card-top">
+                        <div class="education-icon">
+                            ✦
+                        </div>
+
+                        <span class="education-status">
+                            Completed
+                        </span>
+                    </div>
+
+                    <h3>
+                        Diploma in English Language and Literature
+                    </h3>
+
+                    <h4>
+                        Aquinas College of Higher Studies
+                    </h4>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- ==================== CERTIFICATES ==================== -->
+<section id="certificates" class="certificates section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="section-heading">
+            <p class="section-label">MY CERTIFICATES</p>
+
+            <h2 class="section-title">
+                Certifications & <span>Achievements</span>
+            </h2>
+
+            <p class="certificates-intro">
+                Certifications and learning achievements that support
+                my technical knowledge, development skills and
+                professional growth.
+            </p>
+        </div>
+
+
+        <!-- ==================== TECHNICAL & DEVELOPMENT ==================== -->
+
+        <div class="certificate-group">
+
+            <div class="certificate-group-heading">
+                <span>01</span>
+                <h3>Technical & Development</h3>
+            </div>
+
+
+            <div class="certificate-list">
+
+                <!-- Front End Development -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Introduction to Front End Development
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Certificate of Completion
+                        </p>
+
+                        <span class="certificate-date">
+                            10 April 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Computer Science -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            CS102: Introduction to Computer Science II
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Saylor Academy
+                        </p>
+
+                        <span class="certificate-date">
+                            9 March 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Python -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        Py
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            SkillUp 101 – Python
+                        </h4>
+
+                        <p class="certificate-organization">
+                            EduCBA
+                        </p>
+
+                        <span class="certificate-date">
+                            10 April 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- WordPress -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        W
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Build a Free Website with WordPress
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Coursera
+                        </p>
+
+                        <span class="certificate-date">
+                            5 April 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Gemini -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        ✦
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Gemini Certified Student
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Google for Education
+                        </p>
+
+                        <span class="certificate-date">
+                            Issued 9 April 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                
+            </div>
+
+        </div>
+
+
+        <!-- ==================== PROFESSIONAL DEVELOPMENT ==================== -->
+
+        <div class="certificate-group">
+
+            <div class="certificate-group-heading">
+                <span>02</span>
+                <h3>Professional Development</h3>
+            </div>
+
+
+            <div class="certificate-list">
+
+                <!-- Agile Scrum Foundation -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        A
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Agile Scrum Foundation
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Certificate of Completion
+                        </p>
+
+                        <span class="certificate-date">
+                            28 March 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Agile & Scrum -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        A
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Agile and Scrum by Google Career Certificates
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Cursa
+                        </p>
+
+                        <span class="certificate-date">
+                            Completed 10 April 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project Planning -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        ◇
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Project Planning Fundamentals:
+                            From Idea to Executable Plan
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Cursa
+                        </p>
+
+                        <span class="certificate-date">
+                            Completed 04/12/2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project Management -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        PM
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            BUS402: Introduction to Project Management
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Saylor University
+                        </p>
+
+                        <span class="certificate-date">
+                            20 April 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PMI-RMP -->
+
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        R
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Introduction to PMI-RMP®
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Certificate of Completion
+                        </p>
+
+                        <span class="certificate-date">
+                            28 March 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- =====================================================
+     CONTACT SECTION
+     ===================================================== -->
+
+<section class="section contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-subtitle">LET'S CONNECT</span>
+            <h2>Get In Touch</h2>
+            <p>
+                Have a project, opportunity, or just want to connect?
+                Feel free to reach out through any of the platforms below.
+            </p>
+        </div>
+
+        <div class="contact-content">
+
+            <!-- Contact Introduction -->
+            <div class="contact-intro">
+
+                <div class="contact-intro-icon">
+                    <span>✦</span>
+                </div>
+
+                <h3>Let's create something meaningful.</h3>
+
+                <p>
+                    I'm always open to connecting with new people,
+                    discussing creative ideas, and exploring opportunities
+                    in UI/UX Design and Front-End Development.
+                </p>
+
+            </div>
+
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+
+                <!-- Email -->
+                <a href="mailto:amanasiraju97@gmail.com" class="contact-item">
+
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 2v.5l8 5 8-5V6H4zm16 12V8.83l-8 5-8-5V18h16z"/>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <span>Email</span>
+                        <strong>amanasiraju97@gmail.com</strong>
+                    </div>
+
+                </a>
+
+
+                <!-- Phone -->
+                <a href="tel:070 272 2899" class="contact-item">
+
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6.62 10.79a15.46 15.46 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.61 21 3 13.39 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <span>Phone</span>
+                        <strong>070 272 2899</strong>
+                    </div>
+
+                </a>
+
+
+                <!-- LinkedIn -->
+                <a href="http://www.linkedin.com/in/amana-siraju-146bs"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-item">
+
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6.94 8.5H3.5V20h3.44V8.5zM5.22 3A2.01 2.01 0 103.2 5.01 2.01 2.01 0 005.22 3zM20.5 13.41c0-3.46-1.84-5.07-4.3-5.07-1.98 0-2.86 1.09-3.35 1.86V8.5H9.41V20h3.44v-5.69c0-1.5.28-2.95 2.14-2.95 1.83 0 1.86 1.71 1.86 3.05V20h3.44l.01-6.59z"/>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <span>LinkedIn</span>
+                        <strong>Connect with me</strong>
+                    </div>
+
+                </a>
+
+
+                <!-- GitHub -->
+                <a href="https://github.com/amana21bs"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-item">
+
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 .5A12 12 0 00.5 12.75a12.3 12.3 0 008.2 11.7c.6.12.82-.26.82-.58v-2.05c-3.34.75-4.04-1.64-4.04-1.64-.55-1.43-1.34-1.81-1.34-1.81-1.09-.76.08-.75.08-.75 1.2.09 1.83 1.26 1.83 1.26 1.07 1.88 2.8 1.34 3.49 1.02.11-.79.42-1.34.76-1.65-2.67-.31-5.47-1.37-5.47-6.1 0-1.35.47-2.45 1.24-3.31-.13-.31-.54-1.56.12-3.25 0 0 1.01-.33 3.3 1.26a11.5 11.5 0 016 0c2.29-1.59 3.3-1.26 3.3-1.26.66 1.69.25 2.94.12 3.25.77.86 1.24 1.96 1.24 3.31 0 4.74-2.81 5.79-5.49 6.1.43.38.81 1.11.81 2.24v3.32c0 .32.22.7.83.58a12.3 12.3 0 008.19-11.7A12 12 0 0012 .5z"/>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <span>GitHub</span>
+                        <strong>View my projects</strong>
+                    </div>
+
+                </a>
+
+
+                <!-- Behance -->
+                <a href="YOUR_BEHANCE_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-item">
+
+                    <div class="contact-icon">
+                        <span class="behance-text">Bē</span>
+                    </div>
+
+                    <div>
+                        <span>Behance</span>
+                        <strong>View my designs</strong>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <!-- LOGO & TAGLINE -->
+
+            <div class="footer-brand">
+
+                <a href="#home" class="footer-logo">
+                    Amana<span>.</span>
+                </a>
+
+                <p>
+                    UI/UX Designer · Front-End Developer
+                </p>
+
+            </div>
+
+
+            <!-- SOCIAL LINKS -->
+
+            <div class="footer-socials">
+
+                <!-- LINKEDIN -->
+                <!-- Replace YOUR_LINKEDIN_URL with your LinkedIn URL -->
+
+                <a
+                    href="http://www.linkedin.com/in/amana-siraju-146bs"
+                    class="footer-social"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                    title="LinkedIn"
+                >
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M6.5 8.5H3V21H6.5V8.5ZM4.75 3C3.65 3 3 3.72 3 4.67C3 5.61 3.63 6.33 4.7 6.33H4.73C5.85 6.33 6.5 5.61 6.5 4.67C6.5 3.72 5.87 3 4.75 3ZM21 13.83C21 10.06 18.99 8.3 16.31 8.3C14.12 8.3 13.14 9.5 12.6 10.34V8.5H9.1V21H12.6V14.05C12.6 13.68 12.63 13.32 12.76 13.06C13.03 12.34 13.64 11.6 14.67 11.6C16.02 11.6 16.56 12.63 16.56 14.14V21H20.06L21 13.83Z"
+                        />
+                    </svg>
+                </a>
+
+
+                <!-- GITHUB -->
+                <!-- Replace YOUR_GITHUB_URL with your GitHub profile URL -->
+
+                <a
+                    href="https://github.com/amana21bs"
+                    class="footer-social"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                    title="GitHub"
+                >
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M12 2C6.48 2 2 6.58 2 12.23C2 16.75 4.87 20.62 8.84 21.97C9.34 22.07 9.52 21.75 9.52 21.47C9.52 21.22 9.51 20.55 9.5 19.65C6.73 20.27 6.14 18.28 6.14 18.28C5.68 17.07 5.03 16.75 5.03 16.75C4.12 16.1 5.1 16.11 5.1 16.11C6.1 16.18 6.63 17.18 6.63 17.18C7.52 18.75 8.96 18.3 9.54 18.03C9.63 17.35 9.89 16.89 10.17 16.63C7.96 16.37 6.14 18.28 6.14 18.28C6.14 18.28 5.68 17.07 5.03 16.75C4.12 16.1 5.1 16.11 5.1 16.11C6.1 16.18 6.63 17.18 6.63 17.18C7.52 18.75 8.96 18.3 9.54 18.03C9.63 17.35 9.89 16.89 10.17 16.63C7.96 16.37 5.64 15.48 5.64 11.72C5.64 10.65 6 9.78 6.59 9.1C6.49 8.84 6.18 7.84 6.68 6.5C6.68 6.5 7.52 6.22 9.5 7.59C10.3 7.36 11.15 7.24 12 7.23C12.85 7.24 13.7 7.36 14.5 7.59C16.48 6.22 17.32 6.5 17.32 6.5C17.82 7.84 17.51 8.84 17.41 9.1C18 9.78 18.36 10.65 18.36 11.72C18.36 15.49 16.04 16.36 13.82 16.62C14.18 16.94 14.5 17.57 14.5 18.54C14.5 19.93 14.49 21.05 14.49 21.47C14.49 21.75 14.67 22.07 15.18 21.97C19.13 20.62 22 16.75 22 12.23C22 6.58 17.52 2 12 2Z"
+                        />
+                    </svg>
+                </a>
+
+
+                <!-- EMAIL -->
+                <!-- Replace YOUR_EMAIL with your email -->
+
+                <a
+                    href="mailto:amanasiraju97@gmail.com"
+                    class="footer-social"
+                    aria-label="Email"
+                    title="Email"
+                >
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <rect
+                            x="3"
+                            y="5"
+                            width="18"
+                            height="14"
+                            rx="2"
+                            stroke="currentColor"
+                            stroke-width="1.7"
+                        />
+
+                        <path
+                            d="M3 7L12 13L21 7"
+                            stroke="currentColor"
+                            stroke-width="1.7"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </a>
+
+
+                <!-- BEHANCE -->
+                <!--
+                    You said you will give your Behance link later.
+                    We will add the Behance icon here later.
+                -->
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Amana. All rights reserved.
+            </p>
+
+            <a
+                href="#home"
+                class="back-to-top"
+                aria-label="Back to top"
+                title="Back to top"
+            >
+                ↑
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
