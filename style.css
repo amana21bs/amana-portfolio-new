@@ -933,26 +933,25 @@ button {
 
 .secondary-btn {
 
-    color:
-        var(--accent-color);
+    color: var(--accent-color);
 
-    background:
-        transparent;
+    background: transparent;
 
-    border:
-        1px solid var(--accent-color);
+    border: 1px solid var(--accent-color);
+
+    box-shadow: none;
 }
 
 
 .secondary-btn:hover {
 
-    color: #061018;
+    color: var(--accent-color);
 
-    background:
-        var(--accent-color);
+    background: rgba(0, 229, 255, 0.08);
 
-    transform:
-        translateY(-3px);
+    border-color: var(--accent-color);
+
+    transform: translateY(-3px);
 
     box-shadow:
         0 0 20px
@@ -3311,4 +3310,219 @@ button {
         opacity: 1;
         transform: none;
     }
+}
+
+/* =========================
+   SOFT SKILLS
+========================= */
+
+.soft-skills {
+    margin-top: 30px;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.skill-tags span {
+    padding: 9px 16px;
+    border: 1px solid var(--card-border);
+    border-radius: 30px;
+    background: var(--card-bg);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.skill-tags span:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.15);
+}
+
+/* =========================
+   SOFT SKILLS CARD
+========================= */
+
+.soft-skills {
+    grid-column: 1 / -1;
+}
+
+.soft-skills .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.soft-skills .skill-tags span {
+    padding: 9px 16px;
+    border: 1px solid var(--card-border);
+    border-radius: 30px;
+    background: var(--card-bg);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.soft-skills .skill-tags span:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.15);
+}
+
+
+/* =========================
+   CV SELECTION MODAL
+========================= */
+
+.cv-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    background: rgba(5, 10, 20, 0.75);
+    backdrop-filter: blur(10px);
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease;
+}
+
+.cv-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cv-modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    padding: 40px;
+
+    background: var(--section-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+
+    transform: translateY(20px);
+    transition: 0.3s ease;
+}
+
+.cv-modal.active .cv-modal-content {
+    transform: translateY(0);
+}
+
+.cv-modal-content h3 {
+    margin: 8px 0;
+    font-size: 1.6rem;
+}
+
+.cv-modal-content > p:not(.section-label) {
+    color: var(--text-muted);
+    margin-bottom: 25px;
+}
+
+.cv-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+    background: var(--card-bg);
+    color: var(--text-color);
+
+    font-size: 1.5rem;
+}
+
+.cv-modal-close:hover {
+    color: var(--accent-color);
+}
+
+.cv-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cv-option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 16px;
+
+    border: 1px solid var(--card-border);
+    border-radius: 14px;
+
+    background: var(--card-bg);
+
+    transition: var(--transition);
+}
+
+.cv-option:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+.cv-option-icon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: rgba(0, 229, 255, 0.08);
+    font-size: 1.3rem;
+}
+
+.cv-option h4 {
+    color: var(--text-color);
+    margin-bottom: 2px;
+}
+
+.cv-option span:not(.cv-option-icon):not(.cv-arrow) {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+.cv-arrow {
+    margin-left: auto;
+    color: var(--accent-color);
+    font-size: 1.2rem;
+}
+
+
+/* =========================
+   CV BUTTON
+========================= */
+
+.btn-secondary {
+    background: transparent !important;
+    color: var(--accent-color) !important;
+    border: 1px solid var(--accent-color) !important;
+    box-shadow: none !important;
+}
+
+.btn-secondary:hover {
+    background: rgba(0, 229, 255, 0.08) !important;
+    color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.25) !important;
 }

@@ -232,14 +232,69 @@
                 </a>
 
 
-                <a
-                    href="#"
-                    class="btn secondary-btn"
-                    id="cv-button">
+                <button class="btn btn-secondary" id="cv-button">
+    View CV
+</button>
+    <!-- ==================== CV SELECTION MODAL ==================== -->
 
-                    View CV
+<div class="cv-modal" id="cv-modal">
 
-                </a>
+    <div class="cv-modal-content">
+
+        <button class="cv-modal-close" id="cv-modal-close" aria-label="Close">
+            &times;
+        </button>
+
+        <p class="section-label">MY RESUME</p>
+
+        <h3>Choose a CV</h3>
+
+        <p>
+            Select the CV that matches the role you are interested in.
+        </p>
+
+        <div class="cv-options">
+
+            <!-- UI/UX CV -->
+            <a href="assets/UI-UX-CV.pdf"
+               class="cv-option"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <span class="cv-option-icon">🎨</span>
+
+                <div>
+                    <h4>UI/UX Design CV</h4>
+                    <span>View CV</span>
+                </div>
+
+                <span class="cv-arrow">↗</span>
+
+            </a>
+
+
+            <!-- Front-End CV -->
+            <a href="assets/Front-End-CV.pdf"
+               class="cv-option"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <span class="cv-option-icon">💻</span>
+
+                <div>
+                    <h4>Front-End Development CV</h4>
+                    <span>View CV</span>
+                </div>
+
+                <span class="cv-arrow">↗</span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
 
             </div>
 
@@ -733,7 +788,25 @@
 
             </article>
 
+            <!-- Soft Skills -->
+<div class="skill-category soft-skills">
+    <div class="skill-category-header">
+        <div>
+            <span class="skill-number">07</span>
+            <h3>Soft Skills</h3>
+        </div>
+    </div>
 
+    <div class="skill-tags">
+        <span>Communication</span>
+        <span>Teamwork & Collaboration</span>
+        <span>Problem-Solving</span>
+        <span>Critical Thinking</span>
+        <span>Time Management</span>
+        <span>Adaptability</span>
+        <span>Attention to Detail</span>
+    </div>
+</div>
         </div>
 
     </div>
@@ -772,8 +845,54 @@
 
             <div class="projects-grid">
 
+                <!-- Astrocore - Space Exploration Website -->
+<div class="project-card reveal">
 
-                <!-- ===== PROJECT 01 : FOOD ORDERING APP ===== -->
+    <div class="project-image">
+        <img src="images/Astro Website.png" alt="Astrocore Space Exploration Website UI/UX Design">
+            
+        <div class="project-image-overlay">
+                            <span>UI/UX Design</span>
+                        </div>
+    </div>
+
+    <div class="project-content">
+
+        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-type">Figma</span>
+                        </div>
+    
+        <h3>Astrocore - Space Exploration Website</h3>
+
+        <p>
+            A visually immersive space exploration website designed in Figma,
+            featuring astronaut-focused visuals, mission experiences,
+            research highlights, and a futuristic space-themed interface.
+        </p>
+
+        <div class="project-tags">
+            <span>Figma</span>
+            <span>UI Design</span>
+            <span>UX Design</span>
+            <span>Web Design</span>
+            <span>Visual Design</span>
+        </div>
+
+        <!-- ADD YOUR FIGMA LINK HERE -->
+        <a href="https://www.figma.com/proto/p2OvisEmKZpUjcP48zcruQ/Untitled?node-id=5-10&p=f&viewport=-376%2C454%2C0.44&t=jOHyu7v5ZIXkPmNm-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+           class="project-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            View Design
+            <span>↗</span>
+        </a>
+
+    </div>
+</div>
+
+
+                <!-- ===== PROJECT 02 : FOOD ORDERING APP ===== -->
                 <article class="project-card">
 
                     <div class="project-image">
@@ -795,7 +914,7 @@
                     <div class="project-content">
 
                         <div class="project-top">
-                            <span class="project-number">01</span>
+                            <span class="project-number">02</span>
                             <span class="project-type">Figma</span>
                         </div>
 
@@ -832,7 +951,7 @@
                 </article>
 
 
-                <!-- ===== PROJECT 02 : TRAVEL WEBSITE ===== -->
+                <!-- ===== PROJECT 03 : TRAVEL WEBSITE ===== -->
                 <article class="project-card">
 
                     <div class="project-image">
@@ -854,7 +973,7 @@
                     <div class="project-content">
 
                         <div class="project-top">
-                            <span class="project-number">02</span>
+                            <span class="project-number">03</span>
                             <span class="project-type">Figma</span>
                         </div>
 
@@ -891,7 +1010,7 @@
                 </article>
 
 
-                <!-- ===== PROJECT 03 : LOGIN / SIGNUP ===== -->
+                <!-- ===== PROJECT 04 : LOGIN / SIGNUP ===== -->
                 <article class="project-card">
 
                     <div class="project-image">
@@ -913,7 +1032,7 @@
                     <div class="project-content">
 
                         <div class="project-top">
-                            <span class="project-number">03</span>
+                            <span class="project-number">04</span>
                             <span class="project-type">Figma</span>
                         </div>
 
@@ -950,7 +1069,7 @@
 
                 </article>
 
-                <!-- ===== PROJECT 04 : TO-DO APP ===== -->
+                <!-- ===== PROJECT 05 : TO-DO APP ===== -->
 <article class="project-card">
 
     <div class="project-image">
@@ -1008,7 +1127,7 @@
 
 </article>
 
-                <!-- ===== PROJECT 05 : DONUT ANIMATION ===== -->
+                <!-- ===== PROJECT 06 : DONUT ANIMATION ===== -->
                 <article class="project-card">
 
                     <div class="project-image">
@@ -1030,7 +1149,7 @@
                     <div class="project-content">
 
                         <div class="project-top">
-                            <span class="project-number">04</span>
+                            <span class="project-number">06</span>
                             <span class="project-type">Figma</span>
                         </div>
 
@@ -1831,7 +1950,7 @@
 </section>
 
 
-        <!-- ==================== CERTIFICATES ==================== -->
+       <!-- ==================== CERTIFICATES ==================== -->
 <section id="certificates" class="certificates section">
 
     <div class="container">
@@ -1861,11 +1980,9 @@
                 <h3>Technical & Development</h3>
             </div>
 
-
             <div class="certificate-list">
 
                 <!-- Front End Development -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -1883,7 +2000,7 @@
                         </p>
 
                         <span class="certificate-date">
-                            10 April 2026
+                            2026
                         </span>
 
                     </div>
@@ -1892,7 +2009,6 @@
 
 
                 <!-- Computer Science -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -1910,16 +2026,39 @@
                         </p>
 
                         <span class="certificate-date">
-                            9 March 2026
+                            2026
                         </span>
 
                     </div>
 
                 </article>
 
+                <!-- IBM Web Development -->
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Web Development Fundamentals
+                        </h4>
+
+                        <p class="certificate-organization">
+                            IBM
+                        </p>
+
+                        <span class="certificate-date">
+                            2026
+                        </span>
+
+                    </div>
+
+                </article>
 
                 <!-- Python -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -1937,7 +2076,7 @@
                         </p>
 
                         <span class="certificate-date">
-                            10 April 2026
+                            2026
                         </span>
 
                     </div>
@@ -1946,7 +2085,6 @@
 
 
                 <!-- WordPress -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -1964,7 +2102,7 @@
                         </p>
 
                         <span class="certificate-date">
-                            5 April 2026
+                            2026
                         </span>
 
                     </div>
@@ -1973,7 +2111,6 @@
 
 
                 <!-- Gemini -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -1991,7 +2128,48 @@
                         </p>
 
                         <span class="certificate-date">
-                            Issued 9 April 2026
+                            2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================== UI/UX DESIGN ==================== -->
+
+        <div class="certificate-group">
+
+            <div class="certificate-group-heading">
+                <span>02</span>
+                <h3>UI/UX Design</h3>
+            </div>
+
+            <div class="certificate-list">
+
+                <!-- Figma UI Design -->
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        F
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Web and Desktop App UI Design in Figma
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Cursa
+                        </p>
+
+                        <span class="certificate-date">
+                            2026
                         </span>
 
                     </div>
@@ -1999,7 +2177,83 @@
                 </article>
 
 
-                
+                <!-- Wireframing & Prototyping -->
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        W
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Wireframing and Prototyping
+                        </h4>
+
+                        <p class="certificate-organization">
+                            IBM SkillsBuild
+                        </p>
+
+                        <span class="certificate-date">
+                            2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Graphic Design & UI/UX -->
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        UX
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Introduction to Graphic Design; Basics of UI/UX
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Simplilearn SkillUp
+                        </p>
+
+                        <span class="certificate-date">
+                            2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Introduction to Figma -->
+                <article class="certificate-item">
+
+                    <div class="certificate-icon">
+                        F
+                    </div>
+
+                    <div class="certificate-info">
+
+                        <h4>
+                            Introduction to Figma
+                        </h4>
+
+                        <p class="certificate-organization">
+                            Figma
+                        </p>
+
+                        <span class="certificate-date">
+                            2026
+                        </span>
+
+                    </div>
+
+                </article>
+
             </div>
 
         </div>
@@ -2010,15 +2264,13 @@
         <div class="certificate-group">
 
             <div class="certificate-group-heading">
-                <span>02</span>
+                <span>03</span>
                 <h3>Professional Development</h3>
             </div>
-
 
             <div class="certificate-list">
 
                 <!-- Agile Scrum Foundation -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -2036,7 +2288,7 @@
                         </p>
 
                         <span class="certificate-date">
-                            28 March 2026
+                            2026
                         </span>
 
                     </div>
@@ -2045,7 +2297,6 @@
 
 
                 <!-- Agile & Scrum -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -2063,7 +2314,7 @@
                         </p>
 
                         <span class="certificate-date">
-                            Completed 10 April 2026
+                            2026
                         </span>
 
                     </div>
@@ -2072,7 +2323,6 @@
 
 
                 <!-- Project Planning -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -2091,7 +2341,7 @@
                         </p>
 
                         <span class="certificate-date">
-                            Completed 04/12/2026
+                            2026
                         </span>
 
                     </div>
@@ -2100,7 +2350,6 @@
 
 
                 <!-- Project Management -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -2118,7 +2367,7 @@
                         </p>
 
                         <span class="certificate-date">
-                            20 April 2026
+                            2026
                         </span>
 
                     </div>
@@ -2127,7 +2376,6 @@
 
 
                 <!-- PMI-RMP -->
-
                 <article class="certificate-item">
 
                     <div class="certificate-icon">
@@ -2145,7 +2393,7 @@
                         </p>
 
                         <span class="certificate-date">
-                            28 March 2026
+                            2026
                         </span>
 
                     </div>
@@ -2270,24 +2518,6 @@
                     <div>
                         <span>GitHub</span>
                         <strong>View my projects</strong>
-                    </div>
-
-                </a>
-
-
-                <!-- Behance -->
-                <a href="YOUR_BEHANCE_URL"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="contact-item">
-
-                    <div class="contact-icon">
-                        <span class="behance-text">Bē</span>
-                    </div>
-
-                    <div>
-                        <span>Behance</span>
-                        <strong>View my designs</strong>
                     </div>
 
                 </a>

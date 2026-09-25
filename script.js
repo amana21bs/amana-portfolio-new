@@ -348,3 +348,33 @@ const prefersReducedMotion = window.matchMedia(
 if (prefersReducedMotion.matches) {
     document.documentElement.style.scrollBehavior = "auto";
 }
+
+
+/* =========================
+   CV MODAL
+========================= */
+
+const cvButton = document.getElementById("cv-button");
+const cvModal = document.getElementById("cv-modal");
+const cvModalClose = document.getElementById("cv-modal-close");
+
+if (cvButton && cvModal && cvModalClose) {
+
+    cvButton.addEventListener("click", () => {
+        cvModal.classList.add("active");
+        document.body.style.overflow = "hidden";
+    });
+
+    cvModalClose.addEventListener("click", () => {
+        cvModal.classList.remove("active");
+        document.body.style.overflow = "";
+    });
+
+    cvModal.addEventListener("click", (event) => {
+        if (event.target === cvModal) {
+            cvModal.classList.remove("active");
+            document.body.style.overflow = "";
+        }
+    });
+
+}
